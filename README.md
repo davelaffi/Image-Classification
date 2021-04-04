@@ -34,3 +34,7 @@ Training images per class:
 Ground Truth:
 
 Labels for images are provided in the *train_gt.json" file.
+
+The link to downlaod the dataset is:
+
+https://www.kaggle.com/c/artificial-neural-networks-and-deep-learning-2020/data
