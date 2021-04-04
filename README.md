@@ -10,3 +10,27 @@ You will have 2 weeks to solve an image classification problem on the proposed d
 ![alt text](https://github.com/davelaffi/Image-Classification/blob/main/readmeImages/immagine1.jpg?raw=true)
 
 ![alt text](https://github.com/davelaffi/Image-Classification/blob/main/readmeImages/immagine2.jpg?raw=true)
+
+
+Dataset Details:
+Image size: variable
+Color space: RGB/Grayscale (read as 'rgb' in ImageDataGenerator.flow_from_directory ('color_mode' attribute) or use PIL.Image.open('imgname.jpg').convert('RGB'))
+File Format: JPG
+Number of classes: 3
+Classes:
+0: "NO PERSON in the image is wearing a mask"
+1: "ALL THE PEOPLE in the image are wearing a mask"
+2: "SOMEONE in the image is not wearing a mask"
+Dataset Structure
+Two folders:
+
+training: 5614 images
+test: 450 images
+Training images per class:
+
+0 : 1900
+1 : 1897
+2 : 1817
+Ground Truth:
+
+Labels for images are provided in the *train_gt.json" file.
